@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 android{
     compileSdkVersion 25
+    buildToolsVersion "27.0.3"
     defaultConfig{
         applicationId "com.example.wilcom1.myapplication"
         minSdkVersion 16
@@ -19,6 +20,6 @@ android{
 
     dependencies{
         implementation 'com.android.support.constraint:constraint-layout:1.1.2'
-        implementation 'com.android.support:appcompat-v7:253.1'
+        implementation 'com.android.support:appcompat-v7:25.3.1'
     }
 }

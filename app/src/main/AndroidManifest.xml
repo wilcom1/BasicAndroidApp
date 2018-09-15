@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8">
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wilcom1.myapplication">
     <application
         android:label="Demo App"
-        android:theme="@styles/AppTheme">
+        android:theme="@android:style/Theme.Holo">
 
         <activity android:name=".MainActivity">
             <intent-filter>
