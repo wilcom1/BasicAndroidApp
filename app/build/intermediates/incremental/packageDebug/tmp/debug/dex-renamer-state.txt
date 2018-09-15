@@ -1,4 +1,4 @@
-#Sat Sep 15 15:31:43 COT 2018
+#Sat Sep 15 15:42:56 COT 2018
 base.0=C\:\\Users\\WAMEZQUITA\\Documents\\WILMER AMEZQUITA\\workspace\\BasicAndroidApp\\BasicAndroidApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

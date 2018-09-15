@@ -61,16 +61,16 @@ activity#com.example.wilcom1.myapplication.MainActivity
 ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:8:9-13:20
 	android:name
 		ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:8:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.action.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:9:13-12:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:10:17-69
 	android:name
 		ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:10:25-66
-category#android.intent.action.LAUNCHER
-ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:11:17-75
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:11:17-77
 	android:name
-		ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:11:27-72
+		ADDED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml:11:27-74
 uses-sdk
 INJECTED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml
