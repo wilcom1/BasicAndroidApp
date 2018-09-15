@@ -16,7 +16,7 @@
         quickfix="studio">
         <location
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\build.gradle"
-            line="9"
+            line="10"
             column="9"/>
     </issue>
 
@@ -33,7 +33,7 @@
         quickfix="studio">
         <location
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\build.gradle"
-            line="22"
+            line="23"
             column="9"/>
     </issue>
 
@@ -50,7 +50,7 @@
         quickfix="studio">
         <location
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\build.gradle"
-            line="23"
+            line="24"
             column="9"/>
     </issue>
 
@@ -100,7 +100,7 @@
         priority="3"
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.DarkActionBar&quot;>"
+        errorLine1="    &lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;>"
         errorLine2="           ~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
@@ -145,6 +145,22 @@
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml"
             line="4"
             column="5"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="Hardcoded string &quot;Hola Mundo!&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:text=&quot;Hola Mundo!&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\res\layout\activity_main.xml"
+            line="13"
+            column="9"/>
     </issue>
 
 </issues>

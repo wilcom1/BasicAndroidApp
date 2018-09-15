@@ -1380,6 +1380,10 @@
         "source": "C:\\Users\\WAMEZQUITA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2d340836cb4128188a38dac0d3f1401e\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\WAMEZQUITA\\Documents\\WILMER AMEZQUITA\\workspace\\BasicAndroidApp\\BasicAndroidApp\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\WAMEZQUITA\\Documents\\WILMER AMEZQUITA\\workspace\\BasicAndroidApp\\BasicAndroidApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\WAMEZQUITA\\Documents\\WILMER AMEZQUITA\\workspace\\BasicAndroidApp\\BasicAndroidApp\\app\\build\\intermediates\\res\\merged\\release\\color_abc_secondary_text_material_dark.xml.flat",
         "source": "C:\\Users\\WAMEZQUITA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2d340836cb4128188a38dac0d3f1401e\\res\\color\\abc_secondary_text_material_dark.xml"
     },
