@@ -33,7 +33,7 @@
         quickfix="studio">
         <location
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\build.gradle"
-            line="23"
+            line="27"
             column="9"/>
     </issue>
 
@@ -50,7 +50,7 @@
         quickfix="studio">
         <location
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\build.gradle"
-            line="24"
+            line="28"
             column="9"/>
     </issue>
 
@@ -90,6 +90,19 @@
             file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\AndroidManifest.xml"
             line="4"
             column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.raw.okta_app_auth_config` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        quickfix="studio">
+        <location
+            file="C:\Users\WAMEZQUITA\Documents\WILMER AMEZQUITA\workspace\BasicAndroidApp\BasicAndroidApp\app\src\main\res\raw\okta_app_auth_config.json"/>
     </issue>
 
     <issue

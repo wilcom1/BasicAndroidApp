@@ -9,10 +9,26 @@ import com.okta.appauth.android.OktaAppAuth;
 import net.openid.appauth.AuthorizationException;
 
 public class LoginActivity extends Activity{
-    private OktAppAuth mOktaAuth;
+    private OktaAppAuth mOktaAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        mOktaAuth = OktaAppAuth.getInstance(this);
+
+        mOktaAuth.init(
+            this,
+            new OktaAppAuth.OktaAuthListener(){
+                @Override
+                public void onSuccess(){
+
+                }
+
+                @Override
+                public void onTokenFailure(@NonNull AuthorizationException ex){
+
+                }
+            }
+        );
     }
 }

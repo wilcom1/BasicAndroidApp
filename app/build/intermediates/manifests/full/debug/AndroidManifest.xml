@@ -12,17 +12,41 @@
         android:name="android.support.VERSION"
         android:value="25.3.1" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:debuggable="true"
         android:label="Demo App"
         android:theme="@android:style/Theme.Holo" >
-        <activity android:name="com.example.wilcom1.myapplication.MainActivity" >
+        <activity android:name="com.example.wilcom1.myapplication.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.okta.appauth.android.TokenExchangeActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.okta.example" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.openid.appauth.AuthorizationManagementActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>

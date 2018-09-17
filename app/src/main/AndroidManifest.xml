@@ -5,7 +5,7 @@
         android:label="Demo App"
         android:theme="@android:style/Theme.Holo">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
